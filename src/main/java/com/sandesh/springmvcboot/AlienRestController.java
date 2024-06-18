@@ -30,6 +30,8 @@ public class AlienRestController {
 	 @ResponseBody 				// this annotation will help the return type to be treated as object or variable not jsp page
     public List<Alien> getAliens() {
         List<Alien> aliens = repo.findAll();
+        
+        System.out.println("fetching aliens");
         return aliens;
     }
 	 

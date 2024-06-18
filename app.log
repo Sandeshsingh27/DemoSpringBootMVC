@@ -1,0 +1,136 @@
+2024-06-18T08:58:26.280+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] c.s.s.DemoSpringBootMvcApplication       : Starting DemoSpringBootMvcApplication using Java 17.0.11 with PID 32372 (C:\Users\sande\eclipse-workspace\ServletDemo\DemoSpringBootMVC\target\classes started by sande in C:\Users\sande\eclipse-workspace\ServletDemo\DemoSpringBootMVC)
+2024-06-18T08:58:26.283+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] c.s.s.DemoSpringBootMvcApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-18T08:58:27.015+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-18T08:58:27.077+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2024-06-18T08:58:27.797+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-18T08:58:27.819+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-18T08:58:27.819+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-18T08:58:27.992+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-06-18T08:58:27.997+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-18T08:58:27.997+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1663 ms
+2024-06-18T08:58:28.161+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-18T08:58:28.216+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-18T08:58:28.249+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-18T08:58:28.503+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-18T08:58:28.532+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-18T08:58:28.731+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51b51641
+2024-06-18T08:58:28.734+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-18T08:58:28.774+05:30  WARN 32372 --- [DemoSpringBootMVC] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-18T08:58:29.670+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-18T08:58:29.737+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-18T08:58:29.983+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-18T08:58:30.390+05:30  WARN 32372 --- [DemoSpringBootMVC] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-18T08:58:30.418+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-18T08:58:30.796+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-18T08:58:30.808+05:30  INFO 32372 --- [DemoSpringBootMVC] [main] c.s.s.DemoSpringBootMvcApplication       : Started DemoSpringBootMvcApplication in 5.089 seconds (process running for 5.995)
+2024-06-18T08:58:37.328+05:30  INFO 32372 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-18T08:58:37.329+05:30  INFO 32372 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-18T08:58:37.330+05:30  INFO 32372 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-18T08:58:37.377+05:30  INFO 32372 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] c.sandesh.springmvcboot.LoggingAspect    : getAliens method called from aspect
+2024-06-18T09:21:58.419+05:30  WARN 32372 --- [DemoSpringBootMVC] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m59s537ms278µs500ns).
+2024-06-18T09:24:21.325+05:30  INFO 32372 --- [DemoSpringBootMVC] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-18T09:24:21.369+05:30  INFO 32372 --- [DemoSpringBootMVC] [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-18T09:24:21.374+05:30  INFO 32372 --- [DemoSpringBootMVC] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-18T09:24:21.399+05:30  INFO 32372 --- [DemoSpringBootMVC] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-18T09:24:24.202+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] c.s.s.DemoSpringBootMvcApplication       : Starting DemoSpringBootMvcApplication using Java 17.0.11 with PID 31672 (C:\Users\sande\eclipse-workspace\ServletDemo\DemoSpringBootMVC\target\classes started by sande in C:\Users\sande\eclipse-workspace\ServletDemo\DemoSpringBootMVC)
+2024-06-18T09:24:24.205+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] c.s.s.DemoSpringBootMvcApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-18T09:24:25.036+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-18T09:24:25.104+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2024-06-18T09:24:25.802+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-18T09:24:25.825+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-18T09:24:25.825+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-18T09:24:26.008+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-06-18T09:24:26.014+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-18T09:24:26.015+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1761 ms
+2024-06-18T09:24:26.467+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-18T09:24:26.589+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-18T09:24:26.650+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-18T09:24:27.026+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-18T09:24:27.075+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-18T09:24:27.294+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@20890a1a
+2024-06-18T09:24:27.298+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-18T09:24:27.359+05:30  WARN 31672 --- [DemoSpringBootMVC] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-18T09:24:28.461+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-18T09:24:28.532+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-18T09:24:28.797+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-18T09:24:29.323+05:30  WARN 31672 --- [DemoSpringBootMVC] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-18T09:24:29.355+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-18T09:24:29.765+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-18T09:24:29.778+05:30  INFO 31672 --- [DemoSpringBootMVC] [main] c.s.s.DemoSpringBootMvcApplication       : Started DemoSpringBootMvcApplication in 6.081 seconds (process running for 6.939)
+2024-06-18T09:24:49.002+05:30  INFO 31672 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-18T09:24:49.003+05:30  INFO 31672 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-18T09:24:49.005+05:30  INFO 31672 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-06-18T09:24:49.050+05:30  INFO 31672 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] c.sandesh.springmvcboot.LoggingAspect    : After getAliens method called from aspect
+2024-06-18T09:24:49.050+05:30  INFO 31672 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] c.sandesh.springmvcboot.LoggingAspect    : Before getAliens method called from aspect
+2024-06-18T09:25:50.332+05:30  INFO 31672 --- [DemoSpringBootMVC] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-18T09:25:50.366+05:30  INFO 31672 --- [DemoSpringBootMVC] [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-18T09:25:50.370+05:30  INFO 31672 --- [DemoSpringBootMVC] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-18T09:25:50.381+05:30  INFO 31672 --- [DemoSpringBootMVC] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-18T09:25:53.014+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] c.s.s.DemoSpringBootMvcApplication       : Starting DemoSpringBootMvcApplication using Java 17.0.11 with PID 5288 (C:\Users\sande\eclipse-workspace\ServletDemo\DemoSpringBootMVC\target\classes started by sande in C:\Users\sande\eclipse-workspace\ServletDemo\DemoSpringBootMVC)
+2024-06-18T09:25:53.017+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] c.s.s.DemoSpringBootMvcApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-18T09:25:53.769+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-18T09:25:53.833+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2024-06-18T09:25:54.513+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-18T09:25:54.528+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-18T09:25:54.528+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-18T09:25:54.702+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-06-18T09:25:54.706+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-18T09:25:54.707+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1642 ms
+2024-06-18T09:25:54.859+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-18T09:25:54.912+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-18T09:25:54.945+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-18T09:25:55.195+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-18T09:25:55.240+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-18T09:25:55.422+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a6e9289
+2024-06-18T09:25:55.425+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-18T09:25:55.465+05:30  WARN 5288 --- [DemoSpringBootMVC] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-18T09:25:56.337+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-18T09:25:56.411+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-18T09:25:56.663+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-18T09:25:57.050+05:30  WARN 5288 --- [DemoSpringBootMVC] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-18T09:25:57.075+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-18T09:25:57.434+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-18T09:25:57.447+05:30  INFO 5288 --- [DemoSpringBootMVC] [main] c.s.s.DemoSpringBootMvcApplication       : Started DemoSpringBootMvcApplication in 4.913 seconds (process running for 5.832)
+2024-06-18T09:26:40.360+05:30  INFO 5288 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-18T09:26:40.361+05:30  INFO 5288 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-18T09:26:40.363+05:30  INFO 5288 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-06-18T09:26:40.411+05:30  INFO 5288 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] c.sandesh.springmvcboot.LoggingAspect    : After getAliens method called from aspect
+2024-06-18T09:26:40.411+05:30  INFO 5288 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] c.sandesh.springmvcboot.LoggingAspect    : Before getAliens method called from aspect
+2024-06-18T09:27:13.103+05:30  INFO 5288 --- [DemoSpringBootMVC] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-18T09:27:13.132+05:30  INFO 5288 --- [DemoSpringBootMVC] [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-18T09:27:13.137+05:30  INFO 5288 --- [DemoSpringBootMVC] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-18T09:27:13.147+05:30  INFO 5288 --- [DemoSpringBootMVC] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-18T09:27:15.994+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] c.s.s.DemoSpringBootMvcApplication       : Starting DemoSpringBootMvcApplication using Java 17.0.11 with PID 18184 (C:\Users\sande\eclipse-workspace\ServletDemo\DemoSpringBootMVC\target\classes started by sande in C:\Users\sande\eclipse-workspace\ServletDemo\DemoSpringBootMVC)
+2024-06-18T09:27:15.996+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] c.s.s.DemoSpringBootMvcApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-18T09:27:16.715+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-18T09:27:16.792+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2024-06-18T09:27:17.459+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-18T09:27:17.479+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-18T09:27:17.480+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-18T09:27:17.647+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-06-18T09:27:17.652+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-18T09:27:17.652+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1604 ms
+2024-06-18T09:27:17.821+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-18T09:27:17.875+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-18T09:27:17.908+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-18T09:27:18.144+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-18T09:27:18.170+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-18T09:27:18.382+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51b51641
+2024-06-18T09:27:18.389+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-18T09:27:18.451+05:30  WARN 18184 --- [DemoSpringBootMVC] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-18T09:27:19.403+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-18T09:27:19.464+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-18T09:27:19.767+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-18T09:27:20.172+05:30  WARN 18184 --- [DemoSpringBootMVC] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-18T09:27:20.199+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-18T09:27:20.582+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-18T09:27:20.594+05:30  INFO 18184 --- [DemoSpringBootMVC] [main] c.s.s.DemoSpringBootMvcApplication       : Started DemoSpringBootMvcApplication in 5.135 seconds (process running for 5.954)
+2024-06-18T09:27:22.889+05:30  INFO 18184 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-18T09:27:22.889+05:30  INFO 18184 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-18T09:27:22.891+05:30  INFO 18184 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-06-18T09:27:22.943+05:30  INFO 18184 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] c.sandesh.springmvcboot.LoggingAspect    : After getAliens method called from aspect
+2024-06-18T09:27:22.944+05:30  INFO 18184 --- [DemoSpringBootMVC] [http-nio-8080-exec-1] c.sandesh.springmvcboot.LoggingAspect    : Before getAliens method called from aspect
+2024-06-18T09:27:37.140+05:30  INFO 18184 --- [DemoSpringBootMVC] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-18T09:27:37.178+05:30  INFO 18184 --- [DemoSpringBootMVC] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-18T09:27:37.182+05:30  INFO 18184 --- [DemoSpringBootMVC] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-18T09:27:37.193+05:30  INFO 18184 --- [DemoSpringBootMVC] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
