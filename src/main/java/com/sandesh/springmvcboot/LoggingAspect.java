@@ -1,6 +1,8 @@
 package com.sandesh.springmvcboot;
 
 import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.slf4j.Logger;
@@ -18,9 +20,22 @@ public class LoggingAspect {
 		LOGGER.info("Before getAliens method called from aspect");
 	}
 	
+	// this method will be executed irrespective of the successful or exception return 
 	@After("execution(public * com.sandesh.springmvcboot.AlienRestController.getAliens())")
+	public void logAfterFinally() {
+		LOGGER.info("Executed : AfterFinally getAliens method called from aspect");
+	}
+	
+	// this method will be executed only when it has successful or no exception
+	@AfterReturning("execution(public * com.sandesh.springmvcboot.AlienRestController.getAliens())")
 	public void logAfter() {
-		LOGGER.info("After getAliens method called from aspect");
+		LOGGER.info("Successful : AfterReturning that is a normal return of getAliens method called from aspect");
+	}
+	
+	// this method will be executed only when it has exception
+	@AfterThrowing("execution(public * com.sandesh.springmvcboot.AlienRestController.getAliens())")
+	public void logAfterException() {
+		LOGGER.info("Issue : AfterException getAliens method called from aspect with some runtime issue");
 	}
 
 }
